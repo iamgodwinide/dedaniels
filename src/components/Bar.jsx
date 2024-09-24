@@ -18,7 +18,7 @@ const Bar = () => {
             <h3 className='text-black text-3xl md:text-6xl my-2 font-bold'>
                 Bar Overview
             </h3>
-            <p className='font-sans text-black'>Unwind and socialize in our stylish bar, where a curated selection of fine wines, signature cocktails, and premium spirits awaits. Whether you’re looking to relax after a long day or enjoy an evening with friends, our bar offers the perfect ambiance for any occasion.</p>
+            <p className='font-sans text-black'>Unwind and socialize in our stylish bar, where a curated selection of fine wines, signature cocktails, and premium spirits awaits. Whether you&apos;re looking to relax after a long day or enjoy an evening with friends, our bar offers the perfect ambiance for any occasion.</p>
             <h4 className='text-lg text-orange-700 mt-10 font-bold'>Opening Hours: 24/7</h4>
             {/* <button onClick={()=> setOpen(true)} className='uppercase btn font-sans text-md w-full md:w-48 my-10 rounded bg-transparent text-gray-800 hover:text-white hover:bg-orange-800 duration-300'>Open Menu</button> */}
         </div>

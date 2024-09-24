@@ -19,7 +19,7 @@ const About = () => {
                 Hotel in The Heart of
                 Benin City.
             </h3>
-            <p className='font-sans text-black'>At De Daniels Hotels, we provide an exceptional experience that embodies luxury and comfort in the vibrant heart of Benin City. Our hotel is designed to offer a serene and elegant atmosphere for both business and leisure travelers. With world-class amenities and personalized services, we ensure that your stay is as memorable as it is relaxing. Whether you're here for business or pleasure, De Daniels Hotels is your gateway to an extraordinary experience of elegance and hospitality.</p>
+            <p className='font-sans text-black'>At De Daniels Hotels, we provide an exceptional experience that embodies luxury and comfort in the vibrant heart of Benin City. Our hotel is designed to offer a serene and elegant atmosphere for both business and leisure travelers. With world-class amenities and personalized services, we ensure that your stay is as memorable as it is relaxing. Whether you&apos;re here for business or pleasure, De Daniels Hotels is your gateway to an extraordinary experience of elegance and hospitality.</p>
             <Link href="#about" className='uppercase btn font-sans text-md w-full md:w-48 my-10 rounded bg-transparent text-gray-800 hover:text-white hover:bg-orange-800 duration-300'>discover more</Link>
         </div>
     </div>
