@@ -1,0 +1,27 @@
+.title {
+    line-height: 1.2em;
+}
+
+.hero {
+    width: 100%;
+    background-image: url(/bg.jpg);
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.contentLeft {
+    background-color: #fff;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.contentRight {
+    background-image: url(/banner-mask.png);
+    background-repeat: repeat-y;
+    background-position: left;
+}
