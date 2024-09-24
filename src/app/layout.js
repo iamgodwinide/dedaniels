@@ -2,6 +2,7 @@ import { Cormorant } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 const cormorant = Cormorant({
   subsets: ["latin"], weight: [
@@ -53,8 +54,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <Script type="module" strategy="lazyOnload" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" />
+        <Script noModule strategy="lazyOnload" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" />
       </head>
       <body className={cormorant.className}>
         <Header />
