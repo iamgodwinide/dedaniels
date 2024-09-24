@@ -39,6 +39,8 @@ const Footer = () => {
             <li className='text-white text-base my-4'>Wed - 24 hours</li>
             <li className='text-white text-base my-4'>Thu - 24 hours</li>
             <li className='text-white text-base my-4'>Fri - 24 hours</li>
+            <li className='text-white text-base my-4'>Sat - 24 hours</li>
+            <li className='text-white text-base my-4'>Sun - 24 hours</li>
         </ul>
       </div>
 
